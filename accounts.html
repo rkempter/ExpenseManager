@@ -1,0 +1,106 @@
+<html>
+<head>
+  <title>Accounts | Prototype v0.1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="./index.html">App name</a>
+      <div class="nav-collapse">
+      <ul class="nav">
+        <li class="active">
+        <a href="./index.html">Accounts</a>
+        </li>
+        <li class="">
+        <a href="./scaffolding.html">Budget</a>
+        </li>
+        <li class="">
+        <a href="./base-css.html">Settings</a>
+        </li>
+        <li class="">
+        <a href="./components.html">Transactions</a>
+        </li>
+      </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+
+ 
+  <div class="container-fluid body">
+    <div class="row-fluid">
+      <div class="span12">
+         <div id="myModal" class="modal hide fade in" style="display:block;">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal">&times;</a>
+            <h3>Add a transaction</h3>
+          </div>
+          <div class="modal-body">
+            <label>Amount</label>
+            <input type="text" placeholder="How much did you spend?"> <span class="help-inline">CHF</span>
+            <label>Place</label>
+            <input type="text" placeholder="Where did you spend it?">
+            <label>Date &amp; Time</label>
+            <input type="text">
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-primary">Save changes</a>
+            <a href="#" class="btn">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <h1>Your Accounts</h1>
+    </div>
+    <div class="row-fluid">
+      <div class="alert alert-info">
+        Continue like that and you'll soon be able to live on your interests.
+      </div>
+    </div>
+    <div class="row-fluid">
+      <a data-toggle="modal" href="#myModal" >
+        <div class="well account">
+          <label>Post</label>
+          <p>15'000</p>
+        </div>
+      </a>
+    </div>
+    <div class="row-fluid">
+      <div class="well account">
+        <label>UBS</label>
+        <p>15'000</p>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="well account">
+        <label>Cr&eacute;dit Suisse</label>
+        <p>15'000</p>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="well account">
+        <label>Post</label>
+        <p>15'000</p>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="well total account">
+        <label>Total</label>
+        <p>45'000</p>
+      </div>
+  </div>
+</body>
+</html>

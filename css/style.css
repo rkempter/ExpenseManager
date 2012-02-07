@@ -1,0 +1,21 @@
+.body h1 {
+  margin: 60px 0 20px 0;
+}
+.body .account {
+  padding: 15px 0 5px 0;
+  margin: 10px 0;
+}
+.body .account label {
+  float: left;
+  padding: 0 10px;
+}
+.body .account p {
+  padding: 0 10px;
+  text-align: right;
+}
+.body .total label, .body .total p {
+  font-weight: bold;
+}
+.body .hide {
+  display: none;
+}
